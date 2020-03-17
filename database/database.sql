@@ -72,9 +72,11 @@ create table material
 );
 
 --insertions
+/*
 insert into professor (n_matricula, nome, email, senha) values (0, 'teacher', 'teacher@email.com', 'D74FF0EE8DA3B9806B18C877DBF29BBDE50B5BD8E4DAD7A3A725000FEB82E8F1'); --senha = 'pass'
 insert into aluno (n_matricula, nome, email, senha) values (0, 'student', 'student@email.com', 'D74FF0EE8DA3B9806B18C877DBF29BBDE50B5BD8E4DAD7A3A725000FEB82E8F1'); --senha = 'pass'
 insert into gerente (n_matricula, nome, email, senha) values (0, 'manager', 'manager@email.com', 'D74FF0EE8DA3B9806B18C877DBF29BBDE50B5BD8E4DAD7A3A725000FEB82E8F1'); --senha = 'pass'
 insert into curso (id, nome, descricao, carga_horaria, matricula_professor) values (0, 'first course', load_file ('/lara/database/course_description.txt'), 60, 0);
 insert into rel_aluno_curso (n_matricula_aluno, id_curso) values (0, 0);
 insert into material (id, nome, arquivo, id_curso) values (0, 'First material', load_file('/lara/database/course_material.txt'), 0);
+*/
