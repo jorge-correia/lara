@@ -1,28 +1,26 @@
-const mariadb = require ('mariadb');
+// sample js to connect to a mysql database
+// perform a query and then show the result
+const mysql = require ('mysql');
 require ('dotenv').config ();
-const pool = mariadb.createPool ({
-  host: 'mydb.com',
-  user:'myUser',
-  password: 'myPassword',
+
+const db = mysql.createConnection ({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
   database: 'lara_database',
   connectionLimit: 5
 });
 
-async function asyncFunction() {
-  let conn;
-  try {
-    conn = await pool.getConnection();
-    const rows = await conn.query("SELECT 1 as val");
-    console.log(rows); //[ {val: 1}, meta: ... ]
-    const res = await conn.query("INSERT INTO myTable value (?, ?)", [1, "mariadb"]);
-    console.log(res); // { affectedRows: 1, insertId: 1, warningStatus: 0 }
-
-  }
-  catch (err) {
+db.connect ((err) => {
+  if (err)
     throw err;
-  }
-  finally {
-    if (conn)
-      return conn.end();
-  }
-}
+  console.log ('connected');
+
+  var sql = 'select * from professor';
+  db.query (sql, (err, res) => {
+    if (err)
+      throw err;
+
+    console.log (res);
+  });
+});
