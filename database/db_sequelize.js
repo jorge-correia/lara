@@ -6,7 +6,10 @@ const sequelize = new Sequelize ({
   host: process.env.DB_HOST,
   username: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
-  database: 'lara_database'
+  database: 'lara_database',
+  define: {
+    timestamps: false
+  }
 });
 
 // creating the table objects;
@@ -162,11 +165,9 @@ async function dbConn () {
     console.log ('Modules syncronized sucessfully');
 
     // simple example query
-    const result = await professor.findAll ({
-      attributes: ['nome']
-    });
+    const result = await professor.findAll ();
 
-    console.log (result);
+    console.log (JSON.stringify (result, null, 1));
   }
   catch (error) {
     console.error ('Unable to connect to the database:', error);
