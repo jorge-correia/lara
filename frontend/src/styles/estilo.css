@@ -13,10 +13,14 @@ html, body {
   }
   
   /********************** NAV **********************/
+
+  .navbar {
+    margin: 0 20px;
+  }
   
   .nav-link {
     font-family: Roboto, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: #000000 !important;
   }
   
@@ -25,14 +29,20 @@ html, body {
     transition-property: all;
     transition-duration: 0.5s;
   }
+
+  .nav-toggle {
+    border: none;
+  }
   
   .btn-login {
-    width: 200px;
-    height: 50px;
+    width: 250px;
+    height: 60px;
+    line-height: 50px;
     background-color: #34a853;
+    border: none;
     border-radius: 73px;
     font-family: Roboto, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
   }
   
   .btn-login a {
@@ -49,6 +59,14 @@ html, body {
   }
   
   .btn-menu {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
     display: none;
   }
   
@@ -73,6 +91,14 @@ html, body {
   
     .nav-logo {
       height: 70%;
+    }
+
+    .desktop {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
     }
   }
   
