@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alunos",
+  "info": {
+    "name": "aluno",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "n_matricula": {
+      "required": true,
+      "unique": true,
+      "type": "biginteger"
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "senha": {
+      "type": "password",
+      "required": true
+    },
+    "cursos": {
+      "via": "alunos",
+      "collection": "curso",
+      "dominant": true
+    }
+  }
+}

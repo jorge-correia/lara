@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos",
+  "info": {
+    "name": "curso",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "id_curso": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true
+    },
+    "carga_horaria": {
+      "type": "integer",
+      "required": true
+    },
+    "professor": {
+      "model": "professor"
+    },
+    "alunos": {
+      "collection": "aluno",
+      "via": "cursos"
+    },
+    "materials": {
+      "collection": "material"
+    }
+  }
+}

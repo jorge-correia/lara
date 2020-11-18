@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gerentes",
+      "handler": "gerente.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gerentes/count",
+      "handler": "gerente.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gerentes/:id",
+      "handler": "gerente.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gerentes",
+      "handler": "gerente.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gerentes/:id",
+      "handler": "gerente.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gerentes/:id",
+      "handler": "gerente.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
