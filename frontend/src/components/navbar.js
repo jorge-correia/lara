@@ -15,11 +15,11 @@ export default function NavBar(props) {
       expand="lg"
       className="navbar justify-content-between"
     >
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/" className="nav-logo-div">
         <img
           alt=""
           src={logo}
-          width="200"
+          className="nav-logo"
         />{' '}
       </Navbar.Brand>
       <Navbar.Toggle
