@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "gatsby"
 import Footer from '../components/footer';
 import NavBar from '../components/navbar'
+import CardProfessor from '../components/card-professor/card-professor';
 import '../styles/estilo.css';
 import '../styles/index.css';
+import foto from "../components/card-professor/foto.jpg"
 
 
 export default function Home() {

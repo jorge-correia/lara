@@ -1,0 +1,83 @@
+.card--container{
+    position: relative;
+    margin: 10px;
+    border-radius: 0;
+
+    height: 500px;
+    width: 300px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px 2px #CCCCCC;
+}
+
+.card--container:hover {
+    transform: scale(1.02);
+    transition: all .5s;
+    box-shadow: 0 0 2px 2px #EEEEEE;
+
+    border: none;
+}
+
+.card--section-name {
+    padding: 10px 0 5px 0;
+}
+
+.card--section-name p {
+    margin-bottom: 0 !important;
+
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.card--section-photo {
+    width: 100%;
+}
+
+.card--photo-container {
+    margin: 0 auto;
+
+    width: fit-content;
+}
+
+.card--photo-container img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card--section-description {
+    width: 100%;
+}
+
+.card--section-description p {
+    padding: 20px;
+
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+.card--section-lattes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card--section-lattes a {
+    position: absolute;
+    bottom: 20px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: #333333;
+}
+
+.card--section-lattes a:hover {
+    text-decoration: none;
+    transition: all 0.5s;
+    color: #111111;
+}
