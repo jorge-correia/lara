@@ -1,53 +1,21 @@
 import React from "react";
-import { Link } from "gatsby"
-import Footer from '../components/footer';
-import NavBar from '../components/navbar'
-import CardProfessor from '../components/card-professor/card-professor';
-import '../styles/estilo.css';
-import '../styles/index.css';
-import foto from "../components/card-professor/foto.jpg"
-
+import DetalhePag from "../components/detalhePag";
+import Teste1 from "../components/teste1";
+import Teste2 from "../components/teste2";
+import ExperimentosIndex from "../components/experimentosIndex";
+import Colaboracao from "../../public/assets/colaboracao.png";
+import Multilinguagem from "../../public/assets/multilinguagem.png";
+import Contato from "../../public/assets/contato.png";
+import Layout from "../components/layout";
 
 export default function Home() {
   return( 
-    <div>
-      <div>
-        <NavBar/>
-        <Link to="/publicacoesPage">Hi lorena</Link>
-        <Footer/>
-      </div>
-
-
-      <div className="container sobre-lara">
-        <h2 className="titulo-lara">Laboratório Remoto em AVA</h2>
-        // lara
-      </div>
-
-      
-      <div className="container experimento">
-        <h2 className="titulo">Experimentos</h2>
-        // O TITULO N TA APARECENDO PQ A COR DA FONTE EH BRANCA 
-        // exps
-      </div>
-
-
-      <div className="container sobre-colaboracao">
-        <h2 className="titulo2">Colaboração</h2>
-        // colab
-      </div>
-
-
-      <div className="container sobre-multilinguagem">
-        <h2 className="titulo">Multilinguagem</h2>
-        // O TITULO N TA APARECENDO PQ A COR DA FONTE EH BRANCA 
-        // multilinguagem
-      </div>
-
-
-      <div className="container sobre-contato">
-        <h2 className="titulo2">Entre em contato</h2>
-        // contato
-      </div>
-    </div>
+    <Layout>
+      <DetalhePag />
+      <ExperimentosIndex />
+      <Teste1 comDiv={true} id="secao3" titulo="Colaboração" container="container sobre-colaboracao" desc="desc-colaboracao" conteudo="O LARA permite que os alunos possam resolver problemas e programar em equipes de modo que todos consigam interagir entre si e ver as mudanças que os colegas estão fazendo no trabalho, além de permitir que os alunos possam pedir ajuda a monitores e professores." image="img-colab" srcImage={Colaboracao} /> 
+      <Teste2 id="secao4" titulo="Multilinguagem" container="container sobre-multilinguagem" image="img-mult" srcImage={Multilinguagem} conteudo="Atualmente, os experimentos do LARA podem ser programados em C++ e Python para melhor satisfazer professores e alunos. E futuramente pretendemos abranger muitas outras linguagens de programação  e outras formas de programação como em bloco."/>
+      <Teste1 id="secao5" titulo="Entre em contato" container="container sobre-contato" desc="desc-contato" conteudo="Gostou do nosso projeto e gostaria de entrar em contato? Nos envie um email para o endereço lara@uesb.edu.br" image="img-contact" srcImage={Contato} />
+    </Layout>
   );
   }
