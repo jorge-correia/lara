@@ -1,0 +1,18 @@
+{
+  "collectionName": "experimentos",
+  "info": {
+    "name": "experimentos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "experimentos"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/experimentos",
+      "handler": "experimentos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/experimentos/count",
+      "handler": "experimentos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/experimentos/:id",
+      "handler": "experimentos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/experimentos",
+      "handler": "experimentos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/experimentos/:id",
+      "handler": "experimentos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/experimentos/:id",
+      "handler": "experimentos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
