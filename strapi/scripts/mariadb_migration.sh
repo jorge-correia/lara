@@ -7,6 +7,7 @@ then
 else
 	echo '[*] Starting migration'
 	mysqldump --user=$1 --password=$2 --databases $3 > tmp.sql
+	cp tmp.sql ../sql_sample/lara_database_full.sql
 
 
 	echo '[*] Generating inserts'
