@@ -7,29 +7,29 @@ then
 else
 	echo '[*] Starting migration'
 	mysqldump --user=$1 --password=$2 --databases $3 > tmp.sql
-	cp tmp.sql ../sql_sample/lara_database_full.sql
+	cp tmp.sql ../sample_sql/lara_database_full.sql
 
 
 	echo '[*] Generating inserts'
-	rm ../sql_sample/lara_database_inserts.sql
+	rm ../sample_sql/lara_database_inserts.sql
 	while IFS= read -r line;
 	do
 		str=$(echo $line | grep 'INSERT.*;')
 		if [ $(echo $str | wc -c) -gt 1 ]
 		then
-			echo $str >> ../sql_sample/lara_database_inserts.sql
+			echo $str >> ../sample_sql/lara_database_inserts.sql
 		fi
 	done < tmp.sql
 	echo '[+] Done inserts'
 
 	echo '[*] Generating database'
-	rm ../sql_sample/lara_database_creation.sql
+	rm ../sample_sql/lara_database_creation.sql
 	while IFS= read -r line;
 	do
 		str=$(echo $line | sed -e 's/INSERT.*//g')
 		if [ $(echo $str | wc -c) -gt 1 ]
 		then
-			echo $str >> ../sql_sample/lara_database_creation.sql
+			echo $str >> ../sample_sql/lara_database_creation.sql
 		fi
 	done < tmp.sql
 	echo '[+] Done database'
