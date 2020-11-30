@@ -2,7 +2,6 @@
   padding-left: 10%;
   padding-right: 10%;
 }
-
 .card {
   border-width: 0;
 }
@@ -24,16 +23,22 @@
   height: auto;
 }
 
-.btn-cursos{
-  background-color: #FBBC05;
+.btn-desativado {
+  background-color: #34A853 !important;
+}
+
+.btn-laboratorio {
+  background-color: #34A853;
   border-radius: 70px;
-  width: 180px;
-  height:50px;
+  width: 200px;
+  height: 50px;
+  color: #FFFFFF;
   font-family: Roboto, sans-serif;
 }
 
-.btn-cursos:hover {
-  background-color: #FAA100;
+.btn-laboratorio:hover {
+  background-color: #25803E;
+  color: #FFFFFF;
 }
 
 .div-btn {
@@ -41,5 +46,5 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
+

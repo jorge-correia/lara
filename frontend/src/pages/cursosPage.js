@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby"
+import Layout from "../components/layout";
 import Cursos from "../components/cursos";
 import Footer from "../components/footer";
 import NavBar from '../components/navbar'
@@ -13,17 +14,15 @@ export default function cursosPage() {
       <section className="secao" id="section2">
         <div className="container container-exps">
           <h2 className="tipo-exp">Em andamento</h2>
-          //card curso
-          //<Cursos />
+          <Cursos/>
         </div>
 
         <div className="container container-exps">
           <h2 className="tipo-exp">Finalizados</h2>
-          //card curso
-          //<Cursos />
+          <Cursos/>
         </div>
       </section>
-
+      <Footer />
     </div>
   )
 }

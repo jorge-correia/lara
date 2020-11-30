@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
 import '../styles/estilo.css';
-import '../styles/cursos.css';
+import '../styles/laboratorios.css';
 import AOS from "aos";
 
 /**
- * name: Nome do curso
+ * name: Nome do experimento 
  * img: caminho da imagem
- * description: descricao do curso
- * end: link para o curso ou para o ava
+ * description: descricao do experimento 
+ * end: link para o experimento ou para o ava
  */
 
-export default function Cursos(props) {
+export default function Experimentos(props) {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -23,7 +23,7 @@ export default function Cursos(props) {
       <div className="card-body">
         <p className="card-text">{ props.description }</p>
         <div className="div-btn">
-          <button type="button" className="btn btn-cursos" formaction={ props.end } Ir para curso></button>
+          <button type="button" className="btn btn-laboratorio" formaction={ props.end } Ir para curso></button>
         </div>
       </div> 
     </div>
