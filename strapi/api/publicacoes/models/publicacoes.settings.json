@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publicacoes",
+  "info": {
+    "name": "Publicacoes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tipoPublicacao": {
+      "type": "string"
+    },
+    "refPublicacao": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_alunos",
+  "info": {
+    "name": "CardAlunos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nomeAluno": {
+      "type": "string",
+      "required": true
+    },
+    "descricaoAluno": {
+      "type": "richtext",
+      "required": true
+    },
+    "lattesAluno": {
+      "type": "string"
+    },
+    "fotoAluno": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "linkedinAluno": {
+      "type": "string"
+    }
+  }
+}

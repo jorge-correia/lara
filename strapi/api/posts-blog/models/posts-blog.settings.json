@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts_blogs",
+  "info": {
+    "name": "PostsBlog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tituloPost": {
+      "type": "string",
+      "required": true
+    },
+    "conteudoPost": {
+      "type": "richtext",
+      "required": true
+    },
+    "fotoPost": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "dataPublicacaoPost": {
+      "type": "date",
+      "required": true
+    },
+    "autores": {
+      "model": "autores"
+    }
+  }
+}

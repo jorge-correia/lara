@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autores",
+  "info": {
+    "name": "Autores",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tipoAutor": {
+      "type": "string",
+      "required": true
+    },
+    "aluno": {
+      "model": "aluno"
+    },
+    "professor": {
+      "model": "professor"
+    }
+  }
+}

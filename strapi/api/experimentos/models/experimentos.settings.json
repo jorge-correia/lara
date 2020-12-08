@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experimentos",
+  "info": {
+    "name": "Experimentos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nomeExperimento": {
+      "type": "string",
+      "required": true
+    },
+    "fotoExperimento": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "linkExperimento": {
+      "type": "string",
+      "required": true
+    },
+    "tipoExperimento": {
+      "type": "string",
+      "required": true
+    },
+    "descricaoExperimento": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
