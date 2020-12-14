@@ -1,11 +1,13 @@
 import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
 import Publicacoes from "../components/publicacoes";
 import Footer from "../components/footer";
 import NavBar from '../components/navbar'
 import '../styles/estilo.css';
 import '../styles/publicacoes.css';
 
-export default function PublicacoesPage() {
+const PublicacoesPage = () => {
+
   return (
     //<Layout> navBar+ rodape
       <div>
@@ -14,13 +16,13 @@ export default function PublicacoesPage() {
           <div className="container">
             <h2 className="titulo-div">Publicações</h2>
             <Publicacoes />
-            <Publicacoes />
-            <Publicacoes />
-            <Publicacoes />
           </div>  
         </section>
         <Footer />
       </div>
     //</Layout>
-  )
-}
+  );
+};
+
+
+export default PublicacoesPage;

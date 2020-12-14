@@ -13,6 +13,7 @@ const Publicacoes = () =>{
     AOS.init();
     AOS.refresh();
   }, []);
+  
 
   
   return(
@@ -20,8 +21,14 @@ const Publicacoes = () =>{
         <div className="container">*/
         //aqui vai entrar os dados dinâmicos
         <div>
-        <h3 class="tipo-publicacao" data-aos="fade-up">{data.strapiPublicacoes.tipoPublicacao}</h3>
-        <p class="publicacao" data-aos="fade-up">{data.strapiPublicacoes.refPublicacao}</p>
+          {data. allStrapiPublicacoes.edges.map(
+                (item) =>
+                <div> 
+                  <h3 class="tipo-publicacao" data-aos="fade-up">{item.node.tipoPublicacao}</h3>
+                  <p class="publicacao" data-aos="fade-up">{item.node.refPublicacao}</p>
+                </div>
+              )}
+        
     
         </div>
     //</section>*/
@@ -30,12 +37,16 @@ const Publicacoes = () =>{
 
 const query = graphql`
   query {
-    strapiPublicacoes {
-      strapiId
-      refPublicacao
-      tipoPublicacao
+    allStrapiPublicacoes(filter: {strapiId: {gt: 0}}) {
+      edges {
+        node {
+          id
+          strapiId
+          refPublicacao
+          tipoPublicacao
+        }
+      }
     }
   }
 `;
-
 export default Publicacoes;
