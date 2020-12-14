@@ -37,11 +37,10 @@ const Publicacoes = () =>{
 
 const query = graphql`
   query {
-    allStrapiPublicacoes(filter: {strapiId: {gt: 0}}) {
+    allStrapiPublicacoes {
       edges {
         node {
           id
-          strapiId
           refPublicacao
           tipoPublicacao
         }

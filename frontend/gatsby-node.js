@@ -13,7 +13,7 @@
  */
 
 // You can delete this file if you're not using it
-
+/*
 exports.sourceNodes=({ actions}) =>{
     const{ createTypes} = actions;
     const typeDefs= `
@@ -25,4 +25,4 @@ exports.sourceNodes=({ actions}) =>{
     `
 
     createTypes(typeDefs);
-}
+}*/
