@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-source-strapi`,
       options: {
         apiURL: process.env.API_URL || `http://localhost:1337`,
-        contentTypes: ["publicacoes", "card-alunos", "card-professores" ],
+        contentTypes: ["publicacoes", "card-alunos", "card-professores", "laboratorios" ],
         queryLimit: 1000,
       },
     },

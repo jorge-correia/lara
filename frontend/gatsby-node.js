@@ -7,34 +7,20 @@ exports.sourceNodes=({ actions}) =>{
     }
 
     type strapiExperimentos implements Node{
-      //fotoExperimento: image/midia
       linkExperimento: String
       nomeExperimento: String
       descricaoExperimento: String
     }
-    `
-
-    createTypes(typeDefs);
-}
-
-/**  
- ** Olha aqui 
- * Deixei algumas coisas prontas aqui, so nao sei qual o tipo coloca para imagens 
- * 
-
-
-
+    
     type strapiCursos implements Node{
       nomeCurso: String
       descricaoCurso: String
-      //fotoCurso: image/midia
       linkCurso: String
     }
 
     type strapiProfessores implements Node{
       nomeProfessor: String
       descricaoProfessor: String
-      fotoProfessor: image
       lattesProfessor: String
     }
 
@@ -47,11 +33,16 @@ exports.sourceNodes=({ actions}) =>{
 
     type strapiPostBlog implements Node{
       tituloPost: String
-      conteudoPost: String?
-      fotoPost: image?
-      dataPublicacaoPost: date
-      autores: relation?
+      conteudoPost: String
+      
     }
+    `
 
+    createTypes(typeDefs);
+}
+
+/**  
+ **falta colocar as imagnes no coisas acima tipo fotoCurso, fotoExperimento....
+ * dataPublicacaoPost: Date
 */ 
  

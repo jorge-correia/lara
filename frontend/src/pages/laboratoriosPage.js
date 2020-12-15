@@ -5,8 +5,7 @@ import NavBar from '../components/navbar'
 import Laboratorios from "../components/laboratorios";
 //import AlunoCard from "../components/alunoCard";
 import '../styles/estilo.css';
-import '../styles/quemsomos.css';
-import Linkedin from "../../public/assets/linkedin.png";
+import '../styles/laboratorios.css';
 
 export default function LaboratoriosPage() {
   return (
