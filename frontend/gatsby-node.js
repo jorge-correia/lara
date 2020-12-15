@@ -11,7 +11,9 @@ exports.sourceNodes=({ actions}) =>{
 }
 
 /**  
- ** Deixei algumas coisas prontas aqui, so nao sei qual o tipo coloca para imagens 
+ ** Olha aqui 
+ * Deixei algumas coisas prontas aqui, so nao sei qual o tipo coloca para imagens 
+ * 
 
 type strapiExperimentos implements Node{
       //fotoExperimento: image/midia
