@@ -5,6 +5,13 @@ exports.sourceNodes=({ actions}) =>{
         tipoPublicacao: String
         refPublicacao: String
     }
+
+    type strapiExperimentos implements Node{
+      //fotoExperimento: image/midia
+      linkExperimento: String
+      nomeExperimento: String
+      descricaoExperimento: String
+    }
     `
 
     createTypes(typeDefs);
@@ -15,12 +22,7 @@ exports.sourceNodes=({ actions}) =>{
  * Deixei algumas coisas prontas aqui, so nao sei qual o tipo coloca para imagens 
  * 
 
-type strapiExperimentos implements Node{
-      //fotoExperimento: image/midia
-      linkExperimento: String
-      nomeExperimento: String
-      descricaoExperimento: String
-    }
+
 
     type strapiCursos implements Node{
       nomeCurso: String
