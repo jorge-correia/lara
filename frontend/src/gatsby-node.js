@@ -21,12 +21,6 @@ exports.sourceNodes=({ actions}) =>{
         tipoPublicacao: String
         refPublicacao: String
     }
-    type strapiCardProfessores implements Node{
-        nomeProfessor: String
-        descricaoProfessor: String
-        lattesProfessor: String
-        fotoProfessor: File @fileByRelativePath
-    }
     
     `
 

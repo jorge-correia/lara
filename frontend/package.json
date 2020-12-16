@@ -17,6 +17,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.25.3",
+    "gatsby-image-graphql-schema": "^1.1.1",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-source-strapi": "^0.0.12",
     "react": "^16.12.0",

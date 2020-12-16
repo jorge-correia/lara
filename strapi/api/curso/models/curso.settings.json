@@ -11,27 +11,32 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "nomeCurso": {
+    "id_curso": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true
+    },
+    "nome": {
       "type": "string",
       "required": true
     },
-    "descricaoCurso": {
+    "descricao": {
       "type": "text",
       "required": true
     },
-    "fotoCurso": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "carga_horaria": {
+      "type": "integer",
+      "required": true
     },
-    "linkCurso": {
-      "type": "string"
+    "professor": {
+      "model": "professor"
+    },
+    "alunos": {
+      "collection": "aluno",
+      "via": "cursos"
+    },
+    "materials": {
+      "collection": "material"
     }
   }
 }

@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "gatsby"
-import Layout from "../components/layout";
 import Cursos from "../components/cursos";
 import Footer from "../components/footer";
 import NavBar from '../components/navbar'
