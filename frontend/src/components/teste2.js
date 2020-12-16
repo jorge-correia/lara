@@ -18,7 +18,7 @@ export default function Teste2(props) {
             <div className={props.container}>
                 <div className="row">
                 <div className="col-sm-6">
-                    <img className={props.image} data-aos="fade-right" src={props.srcImage}/>
+                    <img className={props.image} data-aos="fade-right" src={props.srcImage} alt=""/>
                 </div>
                 <div className="col-sm-6">
                     <p className="desc-multilinguagem">{props.conteudo}</p>

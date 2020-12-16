@@ -1,9 +1,19 @@
+a {
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #505050;
+}
+
 /*************** SECAO1 ***************/
 
-#secao1 {
+.secao1 {
   background-color: #4285F4;
   height: auto;
   padding: 0;
+  position: relative;
 }
 
 #divisoria {
@@ -28,8 +38,8 @@
 }
 
 .img-nos {
-  height: 15em;
-  padding-left: 50px;
+  height: 19em;
+  margin-left: 150px;
   z-index: 1;
 }
 
@@ -60,8 +70,14 @@
     float: right;
     padding-left: 0;
   }
-}
 
+  .secao2{
+    margin-top: 70px;
+    position: relative;
+  }
+
+}
+.cls-1 {fill:#FFFFFF;};
 /***************** SECAO2 ******************/
 
 #deck-professores.card-deck {

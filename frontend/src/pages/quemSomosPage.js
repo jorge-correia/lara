@@ -1,24 +1,31 @@
 import React from "react";
-import { Link } from "gatsby";
-import Footer from '../components/footer';
 import NavBar from '../components/navbar';
-import '../styles/estilo.css';
-import '../styles/quemsomos.css';
+import DivPag from "../components/divPag";
+import Footer from "../components/footer";
+import IMGEquipe from "../../public/assets/equipe.png";
+import CardProfessor from "../components/card-professor/card-professor";
+import CardAluno from "../components/card-aluno";
 
+const QuemSomosPage = () => {
 
-export default function quemSomosPage() {
   return( 
     <div>
 		<NavBar page="quemsomos"/>
-		<section class="secao" id="secao2"> 
-     	 <div class="container">
-       		 <h2 class="funcao">Professores</h2>
-       		 <div id="deck-professores" class="card-deck">
-					
-		    </div>
-			</div>
-		</section>
-
+		<DivPag  imagem={IMGEquipe}/>
+		
+			   <CardProfessor />
+			   <CardAluno />
+		<Footer />
     </div>
   );
   }
+
+
+
+
+export default QuemSomosPage;
+
+
+
+/*
+	  */

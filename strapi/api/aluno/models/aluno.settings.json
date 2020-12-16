@@ -27,6 +27,11 @@
     "senha": {
       "type": "password",
       "required": true
+    },
+    "cursos": {
+      "via": "alunos",
+      "collection": "curso",
+      "dominant": true
     }
   }
 }

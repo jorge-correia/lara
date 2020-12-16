@@ -18,7 +18,7 @@ export default function ExperimentosIndex() {
 
   return(
      <div style={estilo}>
-      <section classNameName="secao" id="secao2">
+      <section className="secao" id="secao2">
         <div className="container container-desktop">
           <h2 className="titulo">Experimentos</h2>
 
@@ -29,13 +29,13 @@ export default function ExperimentosIndex() {
               <div className="div-btn"><button type="button" className="btn btn-saiba-mais">Saiba mais</button></div>
             </div> 
             <div className="col-12 col-sm-6 col-md-7">
-              <img className="img-exp img-exp-remoto" data-aos="fade-left" src={L1r2}/>
+              <img className="img-exp img-exp-remoto" data-aos="fade-left" src={L1r2} alt=""/>
             </div> 
           </div> 
 
           <div className="row experimento">
             <div className="col-12 col-sm-6 col-md-7">
-              <img className="img-exp img-exp-virtual" data-aos="fade-right" src={Imagem}/>
+              <img className="img-exp img-exp-virtual" data-aos="fade-right" src={Imagem} alt=""/>
             </div> 
             <div className="col-12 col-sm-6 col-md-5 exp-virtual">
               <h3 className="titulo-exp">Virtuais</h3>
@@ -51,7 +51,7 @@ export default function ExperimentosIndex() {
           <div className="card-deck">
 
             <div className="card card-exp" data-aos="zoom-in-up">
-              <img className="img-exp" src={Imagem}/>
+              <img className="img-exp" src={Imagem} alt=""/>
               <div className="card-body">
                 <h5 className="titulo-exp">Remotos</h5>
                 <p className="desc-exp">Laboratórios remotos permitem que alunos que acessem experimentos e ferramentas reais de qualquer lugar do mudo através da internet.</p>
@@ -60,7 +60,7 @@ export default function ExperimentosIndex() {
             </div> 
 
             <div className="card card-exp" data-aos="zoom-in-up">
-              <img className="img-exp" src={Imagem}/>
+              <img className="img-exp" src={Imagem} alt=""/>
               <div className="card-body">
                 <h5 className="titulo-exp">Virtuais</h5>
                 <p className="desc-exp">Laboratórios Virtuais são aqueles que simulam experimentos reais, ou seja, não existe nenhuma estrutura física em sua constituição. Uma das vantagens deste tipo de laboratório é permitir que diversos alunos possam acessar um mesmo experimento ao mesmo tempo.</p>

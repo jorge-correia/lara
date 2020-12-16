@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "card_alunos",
+  "collectionName": "materials",
   "info": {
-    "name": "CardAlunos"
+    "name": "material"
   },
   "options": {
     "increments": true,
@@ -10,30 +10,25 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "nomeAluno": {
+    "id_material": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true
+    },
+    "nome": {
       "type": "string",
       "required": true
     },
-    "descricaoAluno": {
-      "type": "richtext",
-      "required": true
-    },
-    "lattesAluno": {
-      "type": "string"
-    },
-    "fotoAluno": {
+    "arquivo": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
-    },
-    "linkedinAluno": {
-      "type": "string"
+      "required": true
     }
   }
 }
