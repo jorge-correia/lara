@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import NavBar from '../components/navbar'
 import Laboratorios from "../components/laboratorios";
 import '../styles/estilo.css';
-import '../styles/laboratorios.css';
+import '../styles/quemsomos.css';
 
 
 export default function LaboratoriosPage() {

@@ -5440,11 +5440,6 @@ gatsby-graphiql-explorer@^0.6.0:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-gatsby-image-graphql-schema@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-image-graphql-schema/-/gatsby-image-graphql-schema-1.1.1.tgz#458fb7ec4471c5b22b7f4e2566670a0e9f882873"
-  integrity sha512-mTsU1K+n2Ak1P5AvcMSMVkg6GAc8zHuEZDzLyuqPQ4f++65wL20ApQbYVtOjqdSRi0uLwwnXbvsP0eeEZUOsPg==
-
 gatsby-legacy-polyfills@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-legacy-polyfills/-/gatsby-legacy-polyfills-0.2.0.tgz#fd05d510a96a23c4048f8df016424418d8404f46"
