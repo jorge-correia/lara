@@ -21,6 +21,21 @@ exports.sourceNodes=({ actions}) =>{
         tipoPublicacao: String
         refPublicacao: String
     }
+
+    type strapiCardProfessores implements Node{
+        nomeProfessor: String
+        lattesProfessor: String
+        descricaoProfessor: String
+        strapiId: String 
+    }
+
+    type strapiCardAlunos implements Node{
+        nomeAluno: String
+        lattesAluno: String
+        linkedinAluno: String
+        descricaoAluno: String
+        strapiId: String 
+    }
     
     `
 

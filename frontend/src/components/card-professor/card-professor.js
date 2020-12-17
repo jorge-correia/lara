@@ -2,6 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import "./style.css";
 
+
 /**
  * name: nome do professor
  * img: caminho relativo para a imagem
@@ -28,8 +29,8 @@ const CardProfessor = () =>{
               <div className="card--section-photo">
                 <div className="card--photo-container">
                   <img
-                    src= ""  
-                    alt=""
+                    src= {`../../../../strapi/public ${item.node.fotoProfessor.url}`}  
+                    alt="não foi desta vez"
                     draggable="false"
                   />
                 </div>
@@ -66,6 +67,7 @@ const query = graphql`
           strapiId
           fotoProfessor {
             url
+            name
           }
         }
       }
