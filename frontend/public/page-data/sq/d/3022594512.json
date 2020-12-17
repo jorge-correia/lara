@@ -1,0 +1,1 @@
+{"data":{"allStrapiCursos":{"edges":[{"node":{"nome":"nome_curso","descricao":"descricao do curso","EmAndamento":true}},{"node":{"nome":"curso_em_andamento","descricao":"este curso é para vc aprender a se fuder","EmAndamento":true}},{"node":{"nome":"curso_finalizado","descricao":"este curso vc aprendeu  a se fuder","EmAndamento":false}}]}}}

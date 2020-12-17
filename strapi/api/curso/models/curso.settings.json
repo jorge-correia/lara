@@ -11,7 +11,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "id_curso": {
+    "idCurso": {
       "type": "biginteger",
       "required": true,
       "unique": true
@@ -24,7 +24,7 @@
       "type": "text",
       "required": true
     },
-    "carga_horaria": {
+    "cargaHoraria": {
       "type": "integer",
       "required": true
     },
@@ -37,6 +37,11 @@
     },
     "materials": {
       "collection": "material"
+    },
+    "EmAndamento": {
+      "type": "boolean",
+      "required": true,
+      "unique": false
     }
   }
 }

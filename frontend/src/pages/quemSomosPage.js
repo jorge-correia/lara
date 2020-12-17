@@ -10,15 +10,15 @@ const QuemSomosPage = () => {
 
   return( 
     <div>
-		<NavBar page="quemsomos"/>
-		<DivPag  imagem={IMGEquipe}/>
-		
-			   <CardProfessor />
-			   <CardAluno />
-		<Footer />
+    <NavBar page="quemsomos"/>
+    <DivPag  imagem={IMGEquipe}/>
+
+    <CardProfessor />
+    <CardAluno />
+    <Footer />
     </div>
   );
-  }
+}
 
 
 
@@ -28,4 +28,4 @@ export default QuemSomosPage;
 
 
 /*
-	  */
+*/

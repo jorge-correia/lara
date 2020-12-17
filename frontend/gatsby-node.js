@@ -36,7 +36,13 @@ exports.sourceNodes=({ actions}) =>{
         descricaoAluno: String
         strapiId: String 
     }
-    
+
+    type strapiCursos implements Node{
+        nome: String
+        descricao: String
+        EmAndamento: Boolean
+        strapiId: String
+    }
     `
 
     createTypes(typeDefs);
