@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"data":{"allStrapiCardProfessores":{"edges":[{"node":{"nomeProfessor":"Harry","descricaoProfessor":"aaaa","lattesProfessor":"aaaaa","strapiId":1,"fotoProfessor":[{"url":"/uploads/Screenshot_20201205_002047_7763dbf422.png","name":"Screenshot_20201205_002047.png"}]}}]}}}
+=======
+{"data":{"allStrapiCardProfessores":{"edges":[{"node":{"nomeProfessor":"Maísa Soares dos Santos Lopes","descricaoProfessor":"Coordenadora do laboratório","lattesProfessor":"http://lattes.cnpq.br/","strapiId":1,"fotoProfessor":[{"url":"/uploads/i_Stock_648229868_1024x909_7b21d8b315.jpg","name":"iStock-648229868-1024x909.jpg"}]}},{"node":{"nomeProfessor":"Roque trindade","descricaoProfessor":"Coordenador do LINDALVA","lattesProfessor":"http://lattes.cnpq.br/","strapiId":2,"fotoProfessor":[{"url":"/uploads/download_1_c259d022e3.jfif","name":"download (1).jfif"}]}},{"node":{"nomeProfessor":"Alzira","descricaoProfessor":"Coordenadora do projeto","lattesProfessor":"http://lattes.cnpq.br/","strapiId":3,"fotoProfessor":[]}}]}}}
+>>>>>>> a07b64236df0e92e20edda6acccc66f303050c50

@@ -16,7 +16,7 @@ const CardAluno = () =>{
             <div className="row row-cols-1 row-cols-md-2" >
               {data.allStrapiCardAlunos.edges.map(
                 (item) =>
-                <div className="col mb-4">
+                <div className="col mb-4" key={item.node.strapiId}>
                 <div className="card card-aluno" data-aos="zoom-in">
                   <div className="card-body">
                     <h5 className="card-title">{item.node.nomeAluno}</h5>
