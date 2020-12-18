@@ -4,14 +4,6 @@ import '../styles/estilo.css';
 import '../styles/cursos.css';
 import AOS from "aos";
 
-/**
- * name: Nome do curso
- * img: caminho da imagem
- * description: descricao do curso
- * end: link para o curso ou para o ava
- */
-
-
 const verification = (item, emAndamento) =>{
   if (item.node.EmAndamento == emAndamento){
     return (

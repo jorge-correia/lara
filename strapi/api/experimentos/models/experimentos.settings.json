@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "experimentos",
   "info": {
-    "name": "Experimentos"
+    "name": "Experimentos",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -29,13 +30,12 @@
       "type": "string",
       "required": true
     },
-    "tipoExperimento": {
-      "type": "string",
-      "required": true
-    },
     "descricaoExperimento": {
       "type": "richtext",
       "required": true
+    },
+    "remoto": {
+      "type": "boolean"
     }
   }
 }

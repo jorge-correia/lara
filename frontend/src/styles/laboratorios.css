@@ -1,7 +1,50 @@
+/*************** SECAO1 ***************/
+#secao1{
+  background-color: #34a853;
+  height: auto;
+}
+
+#divisoria {
+  background-color: #34a853;
+  width: 100%;
+  height: 100%;
+}
+
+.sobre-lab {
+  padding-top: 90px;
+}
+
+.titulo-lab {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.desc-lab {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.img-lab {
+  height: 19em;
+  padding-left: 50px;
+}
+
+#secao2{
+  margin-top: 70px;
+}
+
+.tipo-exp{
+  margin-top: 50px;
+}
+
+
+/******************** SECAO2 **********************/
+
 .container-exps {
   padding-left: 10%;
   padding-right: 10%;
 }
+
 .card {
   border-width: 0;
 }
@@ -47,4 +90,3 @@
   justify-content: center;
   flex-direction: column;
 }
-

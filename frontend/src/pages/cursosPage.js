@@ -1,15 +1,16 @@
 import React from "react";
+import NavBar from '../components/navbar'
 import Cursos from "../components/cursos";
 import Footer from "../components/footer";
-import NavBar from '../components/navbar'
-import '../styles/estilo.css';
-import '../styles/cursos.css';
+import DivCurso from "../components/divCursos";
+import IMGCursos from "../../public/assets/cursos.png";
 
 const CursosPage = () =>{
   return (
     <div>
       <NavBar page="cursos"/>
-          <Cursos/>
+      <DivCurso imagem={IMGCursos}/>
+      <Cursos/>
       <Footer />
     </div>
   )

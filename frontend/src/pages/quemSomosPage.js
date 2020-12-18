@@ -12,7 +12,6 @@ const QuemSomosPage = () => {
     <div>
     <NavBar page="quemsomos"/>
     <DivPag  imagem={IMGEquipe}/>
-
     <CardProfessor />
     <CardAluno />
     <Footer />
@@ -20,12 +19,4 @@ const QuemSomosPage = () => {
   );
 }
 
-
-
-
 export default QuemSomosPage;
-
-
-
-/*
-*/

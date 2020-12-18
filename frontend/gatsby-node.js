@@ -43,6 +43,15 @@ exports.sourceNodes=({ actions}) =>{
         EmAndamento: Boolean
         strapiId: String
     }
+    
+    type strapiExperimentos implements Node{
+        nomeExperimento: String
+        descricaoExperimento: String
+        remoto: Boolean
+        strapiId: String
+        linkExperimento: String
+    }
+
     `
 
     createTypes(typeDefs);

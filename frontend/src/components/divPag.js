@@ -3,7 +3,6 @@ import '../styles/estilo.css';
 import '../styles/quemsomos.css'; 
 import AOS from "aos";
 
-
 export default function DivPag(props) {
     useEffect(() => {
         AOS.init();
@@ -28,5 +27,3 @@ export default function DivPag(props) {
     
   );
 }
-
-//<style>.cls-1 fill:#4285f4;</style>
