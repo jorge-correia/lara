@@ -1,0 +1,155 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.blogpost--container {
+  height: 300px;
+}
+
+.gray-background {
+  width: 341px;
+  height: 341px;
+
+  background: #F3F3F3;
+}
+
+.image--container {
+  position: absolute;
+
+  margin: 45px 0 0 42px;
+
+  width: 395px;
+  height: 246px;
+
+  background: #B6B6B6;
+}
+
+.gray-background-left {
+  width: 341px;
+  height: 341px;
+  margin-left: 100px;
+
+  background: #F3F3F3;
+
+  z-index: 1;
+}
+
+.image--container-left {
+  position: absolute;
+
+  margin: 45px -50px 0 0;
+
+  width: 395px;
+  height: 246px;
+
+  background: #B6B6B6;
+
+  z-index: 5;
+}
+
+.description--container {
+  margin: 20px 0;
+  height: 300px;
+  width: 80%;
+
+  padding: 30px 50px;
+
+  border-left: 2px solid #B6B6B6;
+}
+
+.blogpost-title {
+  font-weight: bold;
+  font-size: 32px;
+
+  color: #323232;
+}
+
+.blogpost-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.preview--container {
+  height: 100px;
+
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blogpost-preview {
+  font-size: 22px;
+}
+
+.button--container {
+  width: 100%;
+}
+
+.more-info--button {
+  margin: 30px auto;
+  width: 200px;
+  height: 50px;
+  
+  border: none;
+  border-radius: 73px;
+
+  background-color: #505050;
+
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 480px) {
+
+  .container {
+    padding-top: 40px !important;
+  }
+
+  .gray-background {
+    width: 241px;
+    height: 241px;
+  
+    background: #F3F3F3;
+  }
+  
+  .image--container {
+    position: absolute;
+  
+    margin: 30px 0 0 32px;
+  
+    max-width: 80%;
+    width: 300px;
+    height: 186px;
+  
+    background: #B6B6B6;
+  }
+
+  .blogpost-data {
+    display: unset;
+  }
+
+  .description--container {
+    width: 100%;
+    padding: 0;
+    padding-left: 30px;
+
+    border: none;
+  }
+
+  .preview--container {
+    height: auto;
+  
+    white-space: unset;
+    overflow: unset;
+    text-overflow: unset;
+  }
+
+  .blogpost-preview {
+    font-size: 18px;
+  }
+
+  .more-info--button {
+    margin: 10px auto;
+  }
+}
