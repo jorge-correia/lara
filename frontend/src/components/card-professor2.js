@@ -54,10 +54,6 @@ const query = graphql`
           lattesProfessor
           strapiId
           id
-          fotoProfessor {
-            url
-            name
-          }
         }
       }
     }

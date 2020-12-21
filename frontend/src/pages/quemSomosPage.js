@@ -13,12 +13,8 @@ const QuemSomosPage = () => {
     <div>
     <NavBar page="quemsomos"/>
     <DivPag  imagem={IMGEquipe}/>
-<<<<<<< HEAD
-    <CardProfessor />
-=======
 
     <CardProfessor2 />
->>>>>>> a07b64236df0e92e20edda6acccc66f303050c50
     <CardAluno />
     <Footer />
     </div>

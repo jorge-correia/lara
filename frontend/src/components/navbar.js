@@ -53,6 +53,12 @@ export default function NavBar(props) {
             Publicações
           </Nav.Link>
           <Nav.Link
+            className={getClassName("blog")}
+            href="/blogPage"
+          >
+            Blog
+          </Nav.Link>
+          <Nav.Link
             className="nav-link mobile"
             href="/loginPage"
           >
