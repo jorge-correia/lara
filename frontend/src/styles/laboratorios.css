@@ -1,10 +1,11 @@
 /*************** SECAO1 ***************/
-#secao1{
+#secao1Lab{
   background-color: #34a853;
   height: auto;
 }
 
-#divisoria {
+
+#divisoriaLab {
   background-color: #34a853;
   width: 100%;
   height: 100%;
@@ -12,11 +13,13 @@
 
 .sobre-lab {
   padding-top: 90px;
+  color: #FFFFFF;
 }
 
 .titulo-lab {
   font-size: 50px;
   font-weight: bold;
+  color: #FFFFFF;
 }
 
 .desc-lab {

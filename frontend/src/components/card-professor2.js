@@ -2,6 +2,8 @@ import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import "../styles/estilo.css";
 import "../styles/quemsomos.css";
+import Image from "../../../strapi/public/uploads/i_Stock_648229868_1024x909_e96a27f111.jpg";
+
 
 
 /**
@@ -26,7 +28,7 @@ const CardProfessor = () =>{
               <div className="card" data-aos="zoom-in-up" key={item.node.strapiId}>
               <div className="title text-center">
                 <br/><h3 className="nome">{ item.node.nomeProfessor }</h3>
-                <img src="assets/girl.png" className="img-redonda" alt=""/>
+                <img src={Image} className="img-redonda" alt=""/>
               </div>
               <div className="descricao">
                 <p id="ptext">{item.node.descricaoProfessor}</p>
