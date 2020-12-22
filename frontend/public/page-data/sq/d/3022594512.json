@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"data":{"allStrapiCursos":{"edges":[{"node":{"nome":"Curso 1","descricao":"apenas 1 teste","EmAndamento":true}},{"node":{"nome":"Outro curso","descricao":"lalalala","EmAndamento":false}}]}}}
+=======
+{"data":{"allStrapiCursos":{"edges":[]}}}
+>>>>>>> 0aff264f36629e0a8b45bedfc0b218c9040a5784

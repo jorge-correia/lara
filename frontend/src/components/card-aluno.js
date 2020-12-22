@@ -50,9 +50,6 @@ edges {
     linkedinAluno
     lattesAluno
     descricaoAluno
-    fotoAluno {
-      url
-    }
   }
 }
 }
