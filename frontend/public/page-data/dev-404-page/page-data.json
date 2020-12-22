@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/cursosPage/"},{"path":"/"},{"path":"/laboratoriosPage/"},{"path":"/loginPage/"},{"path":"/publicacoesPage/"},{"path":"/quemSomosPage/"}]}},"pageContext":{}},"staticQueryHashes":[]}
-=======
-{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/cursosPage/"},{"path":"/"},{"path":"/laboratoriosPage/"},{"path":"/publicacoesPage/"},{"path":"/quemSomosPage/"}]}},"pageContext":{}},"staticQueryHashes":[]}
->>>>>>> a07b64236df0e92e20edda6acccc66f303050c50
+{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/cursosPage/"},{"path":"/inDevelopment/"},{"path":"/"},{"path":"/laboratoriosPage/"},{"path":"/loginPage/"},{"path":"/publicacoesPage/"},{"path":"/quemSomosPage/"}]}},"pageContext":{}},"staticQueryHashes":[]}
