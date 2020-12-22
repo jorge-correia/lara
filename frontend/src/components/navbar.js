@@ -6,7 +6,7 @@ import logo from '../../public/assets/logo.png';
 export default function NavBar(props) {
 
   function getClassName(page) {
-    return (props.page == page)? "nav-link active" : "nav-link"
+    return (props.page === page)? "nav-link active" : "nav-link"
   }
  
   return(

@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 import '../styles/estilo.css';
 import '../styles/laboratorios.css';
 import AOS from "aos";
 
 const verification = (item, remoto ) =>{
-  if (item.node.remoto == remoto){
+  if (item.node.remoto === remoto){
     return (
       <div>
         <h3 className="nome-exp">{item.node.nomeExperimento}</h3>

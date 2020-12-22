@@ -3,7 +3,6 @@ import '../styles/estilo.css';
 import '../styles/quemsomos.css'; 
 import AOS from "aos";
 import NavBar from '../components/navbar';
-import DivPag from "../components/divPag";
 import Footer from "../components/footer";
 import IMGEquipe from "../../public/assets/equipe.png";
 import CardProfessor2 from "../components/card-professor2";
@@ -25,7 +24,7 @@ const QuemSomosPage = () => {
             <p className="desc-nos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className="col-sm-6 coluna">
-            <img className="img-nos" data-aos="fade-left" src={IMGEquipe}/>
+            <img className="img-nos" data-aos="fade-left" src={IMGEquipe} alt=""/>
           </div>
         </div>
       </div>

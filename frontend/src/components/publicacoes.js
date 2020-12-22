@@ -21,7 +21,7 @@ const Publicacoes = () =>{
         <div className="container">*/
         //aqui vai entrar os dados dinâmicos
         <div>
-          {data. allStrapiPublicacoes.edges.map(
+          {data.allStrapiPublicacoes.edges.map(
                 (item) =>
                 
                 <div> 

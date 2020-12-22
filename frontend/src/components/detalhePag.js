@@ -21,7 +21,7 @@ export default function DetalhesPag() {
             <p className="desc-lara">O LARA - Laboratório Remoto em Ambiente Virtual de Aprendizagem - é um ambiente colaborativo  que visa auxiliar o ensino/aprendizagem através de programação contextualizada</p>
           </div>
           <div className="col-sm-6">
-            <img className="img-lara" data-aos="fade-left" src={laracolaborativo}/>
+            <img className="img-lara" data-aos="fade-left" src={laracolaborativo} alt=""/>
           </div>
         </div>
       </div>

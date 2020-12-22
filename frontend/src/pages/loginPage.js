@@ -35,7 +35,7 @@ export default function LoginPage() {
 
                 <div className="container-login-btn">
                   <div className="wrap-login-btn">
-                    <button className="login-btn">
+                    <button className="login-btn" href="/inDevelopment">
                     Entrar 
                     </button>
                   </div>
@@ -43,7 +43,7 @@ export default function LoginPage() {
                 </div>
 
                 <div className="text-center">
-                  <a className="txt2" href="#">
+                  <a className="txt2" href="/inDevelopment">
                     Esqueceu sua senha? 
                   </a>
                 </div>
@@ -52,7 +52,7 @@ export default function LoginPage() {
                   <span className="txt1" href="#">
                     Ainda não possui uma conta? 
                   </span>
-                  <a className="txt2" href="#">
+                  <a className="txt2" href="/inDevelopment">
                     Cadastre-se 
                   </a>
                 </div>

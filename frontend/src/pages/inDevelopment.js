@@ -1,16 +1,16 @@
 import React from "react";
 import '../styles/desenvolvendo.css';
-import IMGRobot from "../../public/assets/robot.png";
+import IMGRobot from '../../public/assets/robot.png';
 
 const DevPage = () =>{
   return (
     <div>
-      <a href="#" class="botao">
+      <a href="/" className="botao">
         <span>Página Inicial</span>
       </a>
-      <div class="flex-box container-box">
-        <div class="content-box"> 
-          <p><img class="robot" data-aos="fade-left" src={IMGRobot}></img></p>
+      <div className="flex-box container-box">
+        <div className="content-box"> 
+          <img className="robot" src={IMGRobot} alt=""></img>
           <p>Desculpe-nos pelos transtornos, estamos em desenvolvimento!</p>
         </div>
       </div>

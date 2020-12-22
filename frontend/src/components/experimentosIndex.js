@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import '../styles/estilo.css';
 import '../styles/index.css';
 import L1r2 from '../../public/assets/l1r2.jpg'; 
 import Robot from '../../public/assets/virtualRobot.png'; 
@@ -11,10 +10,6 @@ export default function ExperimentosIndex() {
         AOS.init();
         AOS.refresh();
       }, []);
-    const estilo= {
-      margin: "0",
-       width: "100%",
-       height: "100%",};
 
   return(
      <>

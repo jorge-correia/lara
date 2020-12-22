@@ -22,7 +22,7 @@ const CardProfessor = () =>{
            <h2 className="funcao">Professores</h2>
            	 	<div id="deck-professores" className="card-deck">
 
-          {data. allStrapiCardProfessores.edges.map(
+          {data.allStrapiCardProfessores.edges.map(
             (item) => 
             
               <div className="card" data-aos="zoom-in-up" key={item.node.strapiId}>

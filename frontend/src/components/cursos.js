@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { useStaticQuery, graphql} from "gatsby";
 import '../styles/estilo.css';
 import '../styles/cursos.css';
 import AOS from "aos";
 
 const verification = (item, emAndamento) =>{
-  if (item.node.EmAndamento == emAndamento){
+  if (item.node.EmAndamento === emAndamento){
     return (
       <div>
       <h3 className="nome-exp">{item.node.nome}</h3>

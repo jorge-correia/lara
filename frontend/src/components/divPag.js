@@ -18,7 +18,7 @@ export default function DivPag(props) {
             <p className="desc-nos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className="col-sm-6 coluna">
-            <img className="img-nos" data-aos="fade-left" src={props.imagem}/>
+            <img className="img-nos" data-aos="fade-left" src={props.imagem} alt=""/>
           </div>
         </div>
       </div>

@@ -18,7 +18,7 @@ export default function DivCurso(props) {
               <p className="desc-lab">Com os experimentos robóticos remotos e virtuais o LARA oferece cursos para ensino de programação contextualizada em diversas linguagens como c++e python</p>
             </div>
             <div className="col-sm-6">
-              <img className="img-lab" data-aos="fade-left" src={props.imagem}/>
+              <img className="img-lab" data-aos="fade-left" src={props.imagem} alt=""/>
             </div>
           </div>
         </div>

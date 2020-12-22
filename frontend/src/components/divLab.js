@@ -18,7 +18,7 @@ export default function DivLab(props) {
             <p className="desc-lab">O LARA conta com diversos experimentos de robótica, tanto remotos quanto virtuais para melhor satisfazer as necessidades dos alunos e professores</p>
           </div>
           <div className="col-sm-6">
-            <img className="img-lab" data-aos="fade-left" src={props.imagem}/>
+            <img className="img-lab" data-aos="fade-left" src={props.imagem} alt=""/>
           </div>
         </div>
       </div>
