@@ -76,15 +76,19 @@
 .btn-laboratorio {
   background-color: #34A853;
   border-radius: 70px;
+  border-color: #34A853;
   width: 200px;
   height: 50px;
-  color: #FFFFFF;
+  color: white;
+  text-align: center;
+  font-size: 17px;
   font-family: Roboto, sans-serif;
 }
 
 .btn-laboratorio:hover {
   background-color: #25803E;
-  color: #FFFFFF;
+  border-color: #25803E;
+  color: white;
 }
 
 .div-btn {
@@ -92,4 +96,5 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 30px;
 }

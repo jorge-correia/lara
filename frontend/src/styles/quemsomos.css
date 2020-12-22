@@ -16,8 +16,6 @@ a:hover {
   position: relative;
 }
 
-
-
 #divisoria {
   background-color: #4285F4;
   width: 100%;
@@ -175,9 +173,7 @@ a:hover {
   font-size: 20px;
 }
 
-
 .titulo-alunos {
-  
   padding: 0px 0px;
   margin-bottom: 2px;
 }
@@ -186,8 +182,8 @@ a:hover {
   background-color: white;
   border-radius: 0;
   border-width: 0;
-  max-width: 500px;
-  min-width: 300px;
+  max-width: 600px;
+  min-width: 350px;
   box-shadow: 0 0 10px #C4C4C4;
 }
 

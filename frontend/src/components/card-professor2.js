@@ -2,7 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import "../styles/estilo.css";
 import "../styles/quemsomos.css";
-import Image from "../../../strapi/public/uploads/i_Stock_648229868_1024x909_e96a27f111.jpg";
+import Image from "../../public/static/i_Stock_648229868_1024x909_e96a27f111.jpg";
 
 
 

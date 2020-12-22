@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import '../styles/estilo.css';
 import '../styles/index.css';
 import L1r2 from '../../public/assets/l1r2.jpg'; 
-import Imagem from '../../public/assets/imagem.png'; 
+import Robot from '../../public/assets/virtualRobot.png'; 
 import AOS from "aos";
 
 
@@ -35,7 +35,7 @@ export default function ExperimentosIndex() {
 
           <div className="row experimento">
             <div className="col-12 col-sm-6 col-md-7">
-              <img className="img-exp img-exp-virtual" data-aos="fade-right" src={Imagem} alt=""/>
+              <img className="img-exp img-exp-virtual" data-aos="fade-right" src={Robot} alt=""/>
             </div> 
             <div className="col-12 col-sm-6 col-md-5 exp-virtual">
               <h3 className="titulo-exp">Virtuais</h3>
@@ -51,7 +51,7 @@ export default function ExperimentosIndex() {
           <div className="card-deck">
 
             <div className="card card-exp" data-aos="zoom-in-up">
-              <img className="img-exp" src={Imagem} alt=""/>
+              <img className="img-exp" src={Robot} alt=""/>
               <div className="card-body">
                 <h5 className="titulo-exp">Remotos</h5>
                 <p className="desc-exp">Laboratórios remotos permitem que alunos que acessem experimentos e ferramentas reais de qualquer lugar do mudo através da internet.</p>
@@ -60,7 +60,7 @@ export default function ExperimentosIndex() {
             </div> 
 
             <div className="card card-exp" data-aos="zoom-in-up">
-              <img className="img-exp" src={Imagem} alt=""/>
+              <img className="img-exp" src={Robot} alt=""/>
               <div className="card-body">
                 <h5 className="titulo-exp">Virtuais</h5>
                 <p className="desc-exp">Laboratórios Virtuais são aqueles que simulam experimentos reais, ou seja, não existe nenhuma estrutura física em sua constituição. Uma das vantagens deste tipo de laboratório é permitir que diversos alunos possam acessar um mesmo experimento ao mesmo tempo.</p>

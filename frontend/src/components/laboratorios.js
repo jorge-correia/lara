@@ -9,12 +9,12 @@ const verification = (item, remoto ) =>{
     return (
       <div>
         <h3 className="nome-exp">{item.node.nomeExperimento}</h3>
-          <div className="card-body">
-            <p className="card-text">{item.node.descricaoExperimento}</p>
-            <div className="div-btn">
-              <button type="button" className="btn btn-cursos" 
-                Ir para Experimento>
-              </button>
+        <div className="card-body">
+          <p className="card-text">{item.node.descricaoExperimento}</p>
+          <div className="div-btn">
+            <button className="btn-laboratorio" href="../inDevelopment">
+              Ir para Laboratório 
+            </button>
           </div>
         </div> 
       </div>

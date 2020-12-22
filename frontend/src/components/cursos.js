@@ -12,7 +12,9 @@ const verification = (item, emAndamento) =>{
       <div className="card-body">
       <p className="card-text">{item.node.descricao}</p>
       <div className="div-btn">
-      <button type="button" className="btn btn-cursos" /*formaction={ props.end } */ Ir para curso></button>
+        <button className="btn-cursos" href="../inDevelopment">
+          Ir para curso
+        </button>
       </div>
       </div> 
       </div>
