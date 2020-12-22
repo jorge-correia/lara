@@ -29,7 +29,7 @@ const CardProfessor = () =>{
               <div className="card--section-photo">
                 <div className="card--photo-container">
                   <img
-                    src= {`../../../../strapi/public ${item.node.fotoProfessor.url}`}  
+                    src= ""  
                     alt="não foi desta vez"
                     draggable="false"
                   />
