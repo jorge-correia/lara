@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/cursosPage/"},{"path":"/inDevelopment/"},{"path":"/"},{"path":"/laboratoriosPage/"},{"path":"/loginPage/"},{"path":"/publicacoesPage/"},{"path":"/quemSomosPage/"}]}},"pageContext":{}},"staticQueryHashes":[]}
-=======
 {"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/blogPage/"},{"path":"/blogpostPage/"},{"path":"/cursosPage/"},{"path":"/inDevelopment/"},{"path":"/"},{"path":"/laboratoriosPage/"},{"path":"/loginPage/"},{"path":"/publicacoesPage/"},{"path":"/quemSomosPage/"}]}},"pageContext":{}},"staticQueryHashes":[]}
->>>>>>> 0aff264f36629e0a8b45bedfc0b218c9040a5784

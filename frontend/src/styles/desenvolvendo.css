@@ -1,0 +1,44 @@
+*{
+  font-family: 'Roboto';
+}
+
+.botao{
+  text-decoration: none;
+  background-color: transparent;
+  background: transparent url("../../public/assets/seta.png") left center no-repeat;
+  padding: 0 0 0 20px;
+  margin-left:10px;
+  height: 32px;
+  border: 1px solid transparent;
+  min-width: 120px;
+  font-size:16px; 
+}
+
+.botao:hover{
+  transition: all .2s ease;
+  width: 30%;
+}
+
+p{
+  font-size:22px; 
+}
+
+.robot{
+  max-width:200px;
+  max-height:150px;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-box {
+  height: 500px;
+}
+
+.content-box {
+  text-align: center;
+  width: 800px;
+}
