@@ -2,9 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import '../styles/estilo.css';
 import '../styles/quemsomos.css';
-import IMG from  '../../public/assets/linkedin.png'
-
-
+import IMG from  '../../public/assets/linkedin.png';
 
 const CardAluno = () =>{
   const data = useStaticQuery(query);
@@ -50,6 +48,9 @@ edges {
     linkedinAluno
     lattesAluno
     descricaoAluno
+    fotoAluno {
+      name
+    }
   }
 }
 }

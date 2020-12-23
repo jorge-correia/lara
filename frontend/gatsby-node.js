@@ -52,6 +52,12 @@ exports.sourceNodes=({ actions}) =>{
         linkExperimento: String
     }
 
+    type strapiPostsBlogs implements Node{
+        conteudoPost: String
+        dataPublicacaoPost: String
+        tituloPost: String
+    }
+
     `
 
     createTypes(typeDefs);

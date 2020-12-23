@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import '../styles/estilo.css';
 import '../styles/laboratorios.css';
+import IMG from "../../public/assets/cursoprog.png";
 import AOS from "aos";
 
 const verification = (item, remoto ) =>{
@@ -9,6 +10,7 @@ const verification = (item, remoto ) =>{
     return (
       <div>
         <h3 className="nome-exp">{item.node.nomeExperimento}</h3>
+        <img src={IMG} class="card-img-top img-experimento" alt="L1R2"/>
         <div className="card-body">
           <p className="card-text">{item.node.descricaoExperimento}</p>
           <div className="div-btn">
